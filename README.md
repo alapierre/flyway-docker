@@ -1,6 +1,6 @@
 # flyway-docker
 
-Flyway CE Docker image based on apline linux, ispired on official Flyway image, but wit no security vulnerabilities
+Flyway CE Docker image based on apline linux, inspired on official Flyway image, but with no security vulnerabilities, plus usefull wait-for.sh (https://github.com/eficode/wait-for)
 
 ```
 trivy lapierre/flyway
@@ -16,4 +16,4 @@ Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 
 ## Licence 
 
-This project is licenced on Apache 2.0, same as Flyway Community Edition - Apache 2.0
+This project is licenced on Apache 2.0, same as Flyway Community Edition - Apache 2.0. wait-for.sh in on MIT Licence. 
