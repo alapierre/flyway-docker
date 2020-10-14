@@ -3,7 +3,7 @@ FROM lapierre/java-alpine:8
 MAINTAINER Adrian Lapierre <al@alapierre.io>
 
 # Add the flyway user and step in the directory
-RUN addgroup -S flyway && adduser --home /flyway -S -G flyway flyway
+RUN addgroup -S flyway && adduser --home /flyway -S -G flyway flyway && apk add --no-cache bash
 
 WORKDIR /flyway
 
