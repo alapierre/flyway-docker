@@ -13,3 +13,7 @@ lapierre/flyway (alpine 3.12.0)
 ===============================
 Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 ```
+
+## Licence 
+
+This project is licenced on Apache 2.0, same as Flyway Community Edition - Apache 2.0
