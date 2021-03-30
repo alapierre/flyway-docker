@@ -1,8 +1,8 @@
 IMAGE_NAME=lapierre/flyway
-IMAGE_VERSION=7.0.3
+IMAGE_VERSION=7.7.1
 
 build:
-	docker build -t $(IMAGE_NAME):$(IMAGE_VERSION) .
+	docker build --pull -t $(IMAGE_NAME):$(IMAGE_VERSION) .
 	docker tag $(IMAGE_NAME):$(IMAGE_VERSION) $(IMAGE_NAME):latest
 	docker tag $(IMAGE_NAME):$(IMAGE_VERSION) $(IMAGE_NAME):7
 
