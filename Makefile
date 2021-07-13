@@ -1,5 +1,5 @@
 IMAGE_NAME=lapierre/flyway
-IMAGE_VERSION=7.7.1
+IMAGE_VERSION=7.11.1
 
 build:
 	docker build --pull -t $(IMAGE_NAME):$(IMAGE_VERSION) .
