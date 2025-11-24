@@ -13,9 +13,9 @@ USER flyway
 
 ARG FLYWAY_VERSION
 
-RUN wget https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/${FLYWAY_VERSION}/flyway-commandline-${FLYWAY_VERSION}.tar.gz \
-  && tar -xzf flyway-commandline-${FLYWAY_VERSION}.tar.gz --strip-components=1 \
-  && rm flyway-commandline-${FLYWAY_VERSION}.tar.gz
+RUN wget https://download.red-gate.com/maven/release/com/redgate/flyway/flyway-commandline/${FLYWAY_VERSION}/flyway-commandline-${FLYWAY_VERSION}-linux-x64.tar.gz \
+  && tar -xzf flyway-commandline-${FLYWAY_VERSION}-linux-x64.tar.gz --strip-components=1 \
+  && rm flyway-commandline-${FLYWAY_VERSION}-linux-x64.tar.gz
 
 ADD wait-for.sh wait-for.sh
 
